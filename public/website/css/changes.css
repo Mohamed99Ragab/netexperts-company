@@ -1,0 +1,229 @@
+#vission
+{
+    background: #3A53A5;
+    position: relative;
+}
+#vission .vision-head{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+   
+}
+
+.custom-shape-divider-bottom-1689828631 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1689828631 svg {
+    position: relative;
+    display: block;
+    width: calc(180% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-bottom-1689828631 .shape-fill {
+    fill: #f9fcff;
+}
+
+
+#vission .vision-img
+{
+    width: 100%;
+}
+#vission .vision-title
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px; /* 131.25% */
+}
+#vission .vision-content p
+{
+    color: #F9FCFF;
+    font-size: 18px;
+    font-weight: 400;
+    /* width: 100%; */
+    
+}
+.mission .section-header p{
+    color: #546182;
+    text-align: center;
+    font-family: Catamaran;
+    font-size: 25.58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 63px; /* 246.286% */
+}
+
+/* #integrity .integrity-content
+{
+    position: relative;
+
+}
+#integrity .integrity-img
+{
+    position: absolute;
+    top: 50px;
+    left: -100px;
+    z-index: -50;
+
+}
+#integrity .integrity-content .reliability-img
+{
+    position: absolute;
+    top: 105px;
+    right: -15px;
+    z-index: -50;
+} */
+
+
+.process-tab-container {
+    max-width: 92rem;
+    margin: 0 auto;
+  }
+  
+  .process-tab-container .nav-pills {
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .process-tab-container .nav-pills {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+  }
+  
+  .process-tab-container .nav-link {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 32rem;
+    font-size: 1.8rem;
+    /* line-height: 2.8rem; */
+    font-weight: 700;
+    color: #888FB8;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(221, 223, 235, 0.1);
+            box-shadow: 0 4px 10px 0 rgba(221, 223, 235, 0.1);
+  }
+  
+  @media screen and (max-width: 991px) {
+    .process-tab-container .nav-link {
+      font-size: 1.4rem;
+      padding: 1rem 4rem 1rem 1rem;
+    }
+  }
+  
+  .process-tab-container .nav-link span {
+    margin-right: 2rem;
+    color: #DDDFEB;
+    white-space: nowrap;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .process-tab-container .nav-link span {
+      margin-right: .5rem;
+    }
+  }
+  
+  .process-tab-container .nav-link i {
+    position: absolute;
+    right: 6rem;
+    top: 4.2rem;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    color: #32325c;
+    margin-left: auto;
+    opacity: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .process-tab-container .nav-link i {
+      top: 1.3rem;
+      right: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+  
+  .process-tab-container .nav-link.active, .process-tab-container .nav-link:hover {
+    background: #fff;
+    color: #32325c;
+    -webkit-box-shadow: 0 20px 30px 5px rgba(136, 143, 184, 0.12);
+            box-shadow: 0 20px 30px 5px rgba(136, 143, 184, 0.12);
+  }
+  
+  .process-tab-container .nav-link.active span, .process-tab-container .nav-link:hover span {
+    color: #32325c;
+  }
+  
+  .process-tab-container .nav-link.active i, .process-tab-container .nav-link:hover i {
+    opacity: 1;
+    right: 3rem;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .process-tab-container .nav-link.active i, .process-tab-container .nav-link:hover i {
+      right: 1rem;
+    }
+  }
+  
+  .process-tab-container .tab-content {
+    padding-left: 2.4rem;
+
+  }
+  
+  @media screen and (max-width: 991px) {
+    .process-tab-container .tab-content {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  
+  .process-card {
+    max-width: 100%;
+    padding: 2.5rem;
+    background: #fff;
+  }
+  
+  .process-card-content {
+    padding: 3rem 3rem 1rem;
+  }
+  
+  .process-card-content h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .process-card-content p {
+    margin-bottom: 2rem;
+  }
+  

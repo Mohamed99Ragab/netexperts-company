@@ -1,0 +1,361 @@
+section
+{
+    overflow-x: hidden;
+
+}
+section .animate
+{
+    opacity: 0;
+    filter: blur(5px);
+    transition: 0.7s;   
+
+}   
+
+section.show-animate .animate
+{
+    opacity: 1;
+    filter: blur(0);
+    /* transition: 1s; */
+}
+/* #home  .animate
+{
+    transform: scale(.7);
+} */
+
+#home .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#home.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+/* #home.show-animate .animate
+{
+    transform: scale(1);
+
+} */
+
+
+#home .right-animate .animate
+{
+    position: relative;
+}
+
+#home .right-animate .showRight-animate
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: 1.5s;
+    transition-delay: calc(.2s* var(--i));
+
+}
+
+#home.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+} 
+
+#home.show-animate .right-animate .showRight-animate
+{
+    width: 0;
+}
+
+
+
+#about .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#about.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#about .right-animate .animate
+{
+    transform: translateX(-100%);
+}
+
+
+#about.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+
+/* vision animation */
+
+#vission .title-animate{
+    transform: scale(.7);
+}
+
+#vission.show-animate .title-animate{
+    transform: scale(1);
+}
+
+#vission .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#vission.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#vission .right-animate .animate
+{
+    transform: translateX(-100%);
+}
+
+
+#vission.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+/* Mission Animation */
+
+#mission .right-animate .animate
+{
+    transform: translateX(-100%);
+    transition-delay: calc(.2s* var(--i));
+
+}
+
+
+#mission.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+/* Core Value Animation */
+
+#core-value .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#core-value.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#core-value .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#core-value.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+/* Excellance Animation */
+
+#excellence .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#excellence.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#excellence .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#excellence.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+/* customer-satisfaction Animation */
+
+#customer-satisfaction .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#customer-satisfaction.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#customer-satisfaction .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#customer-satisfaction.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+/* customer-satisfaction Animation */
+
+#integrity .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#integrity.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#integrity .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+#integrity.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+
+/* customer-satisfaction Animation */
+
+#reliability .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#reliability.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#reliability .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+
+#reliability.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+
+
+#our-services .title-animate{
+    transform: scale(.7);
+}
+
+#our-services.show-animate .title-animate{
+    transform: scale(1);
+}
+
+
+
+#our-services .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#our-services.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#our-services .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+
+#our-services.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#contact-us .title-animate{
+    transform: scale(.7);
+}
+
+#contact-us.show-animate .title-animate{
+    transform: scale(1);
+}
+
+
+#contact-us .right-animate .animate
+{
+    transform: translateX(-100%);
+
+}
+
+
+#contact-us.show-animate .right-animate .animate
+{
+    transform: translateX(0%);
+}
+
+
+#contact-us .left-animate .animate
+{
+    transform: translateX(100%);
+}
+
+
+
+#contact-us.show-animate .left-animate .animate
+{
+    transform: translateX(0%);
+}

@@ -1,0 +1,935 @@
+
+
+/* css custom banner */
+
+ /*
+ 1- general
+ 1- header
+ 2-banner
+ 3-counter
+ 4-services
+
+
+
+
+ */
+
+
+
+ /* start custom css general */
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    cursor: pointer;
+}
+
+textarea
+{
+    resize: none;
+}
+
+div.toast-message
+{
+    font-size: 20px;
+}
+
+
+
+ .custom-btn
+ {
+     background: linear-gradient(180deg, #3C53A3 0%, #B758A1 100%);
+
+ }
+
+
+ .theme-bg-d
+ {
+    background-color: #3A53A5;
+ }
+
+ .section-title
+ {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #32325C;
+ }
+
+
+
+
+ /* end general */
+
+
+/* start header */
+
+
+ .navbar-brand img
+{
+
+
+
+    max-width: 150px;
+
+
+}
+
+
+.navbar.scrolled
+{
+    padding: 0 3rem;
+    margin-top: 0;
+}
+
+header .container
+{
+    max-width: 100%;
+    padding: 0 0;
+    /* border-bottom: 1px solid #ecf2f8; */
+
+
+}
+
+.navbar
+{
+    padding: 0 25px;
+    /* width: 85%; */
+}
+
+
+
+.dropdown
+{
+    position: relative;
+}
+
+ .dropdown ul
+{
+    list-style: none;
+    box-shadow: 0px 5px 50px 0px #9CB9E233;
+}
+
+
+.navbar-nav li.dropdown a:not(.custom-btn)
+
+{
+    padding: 13px 0 !important;
+    margin: 0 0 !important;
+}
+
+/* Dropdown Button */
+.dropbtn {
+
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    padding: 1rem 0;
+    border-radius: 4px;
+    font-weight: 300;
+    color: #546182;
+  }
+
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 220px;
+    box-shadow: 0px 5px 50px 0px #9CB9E233;
+    z-index: 1;
+    top: 65px;
+    padding-left: 0;
+
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .fa-chevron-down,.fa-chevron-up
+  {
+
+    font-size: 12px;
+  }
+
+
+  .navbar-nav li span:not(.custom-btn):hover::after,
+   .navbar-nav li span:not(.custom-btn).active::after {
+    width: 100%;
+}
+
+
+  .navbar-nav li span:not(.custom-btn)::after {
+    content: " ";
+    position: absolute;
+    bottom: -24px;
+    left: 0px;
+    display: block;
+    width: 0px;
+    height: 0.2rem;
+    background-color:#3A53A5;
+    transition: width 0.5s ease 0s;
+}
+
+/* end header */
+
+
+
+
+
+ /* start css banner */
+
+.banner h1
+{
+    font-weight: 700;
+    font-size: 81px;
+    line-height: 65px;
+    color: #32325C;
+}
+
+.banner .subtitle
+{
+    font-weight: 400;
+    font-size: 40px;
+
+    color: #32325C;
+}
+
+.banner .larger-txt
+{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #546182;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.banner .larger-txt::after
+{
+    content: "";
+    width: 92%;
+    height: 2px;
+    display: block;
+    background-color: #B758A1 ;
+
+}
+
+
+/* end css banner */
+
+
+/* start counter */
+
+
+.achievements {
+    padding: 5.5rem 0;
+}
+
+
+.counter
+{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+
+.counter-wrapper
+{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+
+
+/* end counter */
+
+
+/* start services */
+
+#services
+{
+    margin-bottom: 100px;
+}
+
+#services p.larger-txt
+{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.service-title
+{
+    color: #32325C;
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 63px;
+
+
+}
+
+.service-content p
+{
+    color: #546182;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+
+
+}
+
+#services img
+{
+    max-width: 95%;
+}
+
+
+
+
+/* end services */
+
+
+/* start features  */
+
+.features-grid a
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0A8AFF;
+}
+
+.features-grid img
+{
+    max-width: 100%;
+}
+
+.features-grid p
+{
+    font-size: 18px;
+    color: #546182;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+
+/* end features */
+
+
+
+
+
+
+
+
+
+
+/* our clients */
+
+.clients
+{
+    padding: 5.5rem 0;
+}
+
+
+.owl-carousel .owl-nav button.owl-next,
+ .owl-carousel .owl-nav button.owl-prev,
+ .owl-carousel button.owl-dot
+ {
+    display: none;
+ }
+
+
+
+/* end clients */
+
+
+
+
+
+
+/* our products section */
+
+.our-products
+{
+    background-image: url('../images/waves/product-wave.png');
+    /* position: relative; */
+    height: 250px;
+    /* z-index: 1000; */
+}
+
+
+
+
+/* end our products section */
+
+
+
+/* start contact us section */
+
+
+
+.contact-us
+{
+    position: relative;
+
+
+    margin-bottom: 80px;
+
+
+}
+
+
+.contact-us-title
+{
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+
+.contact-info-block
+{
+    text-align: center;
+    box-shadow: 0px 5px 50px 0px #73869f33;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 20px 40px 20px;
+
+    transition: background-color 1s;
+
+}
+
+.contact-info-block:hover
+{
+    background-color: #32325C;
+
+}
+
+.contact-info-block:hover.contact-info-block h3,
+.contact-info-block:hover.contact-info-block i,
+.contact-info-block:hover.contact-info-block p
+{
+    color: #fff;
+}
+
+
+
+
+
+
+.contact-info-block i
+{
+    font-size: 24px;
+}
+
+.contact-info-block h3
+{
+    font-size: 20px;
+}
+
+.contact-us .row
+{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0;
+
+
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+
+
+
+}
+
+
+
+
+
+.contact-us-content
+{
+    background-color: #fff;
+    /* border: #32325C solid 1px; */
+
+}
+
+
+
+
+
+
+
+
+
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+
+
+.input-icons .icon {
+
+    position: absolute;
+    left: 0;
+    top: 15px;
+    padding: 10px;
+    min-width: 40px;
+    color: #32325C;
+    font-size: 18px;
+}
+
+.contact-us .content .form-input
+{
+    /* background-color: #32325C; */
+    border: 1px solid #32325C;
+    margin: 20px 0;
+    padding: 20px 50px;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+    color: #32325C;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+
+
+
+.contact-bg
+{
+    background-color: #FFFFFF;
+    position: relative;
+
+}
+
+.contact-bg img
+{
+    width: 70%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.contactBtn
+{
+    padding: 6px 30px 6px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+
+    width: 100%;
+    margin:  0 auto 10px auto;
+}
+
+
+/* end contact us */
+
+
+
+
+
+/* start footer */
+
+footer
+{
+   position: relative;
+
+}
+
+.dark-footer-bg
+{
+    background-color: #32325C;
+    color: #fff;
+}
+
+.footer-widget .footer-title
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 54px;
+    font-family: 'Catamaran';
+}
+
+.footer-desc
+{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.footer-widget ul
+{
+    list-style: none;
+    margin-left: 0;
+    padding-left:0 ;
+
+}
+
+.footer-widget a
+{
+    color: #fff;
+}
+
+.footer-nav-title
+{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-nav.dynamic-nav
+{
+    line-height: 40px;
+}
+
+.copywrite-txt
+{
+    position: absolute;
+
+    bottom: 0;
+
+}
+
+
+/* end footer */
+
+
+
+
+
+@media only screen and (min-width:1100px) {
+
+    .dropdown-content
+    {
+        position: absolute;
+        top: 72px;
+
+
+
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .navbar-nav li span:not(.custom-btn):hover::after,
+    .navbar-nav li span:not(.custom-btn).active::after {
+     width: 0;
+ }
+
+    .dropdown-content
+    {
+        position: static;
+        width: 100%;
+
+
+
+    }
+
+
+
+
+    .navbar-nav li span:not(.custom-btn):hover, .navbar-nav li span:not(.custom-btn).active {
+        background: #fff;
+    }
+
+
+
+
+    .copywrite-txt
+    {
+        position: absolute;
+        bottom: -690px;
+    }
+
+
+
+    .footer-nav-title
+    {
+
+        margin-bottom: 30px;
+    }
+
+    .contactBtn
+    {
+
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+
+  }
+
+
+
+  @media only screen and (min-width: 769px) and (max-width:960px){
+
+
+    .banner .larger-txt::after
+    {
+
+        width: 70%;
+        margin: auto;
+
+    }
+
+
+
+        #services p.larger-txt
+        {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .service-title
+        {
+
+            font-size: 25px;
+            line-height: 48px;
+
+
+        }
+
+        .service-content p
+        {
+
+            font-size: 16px;
+            line-height: 25px;
+
+
+        }
+
+        #services img
+        {
+            max-width: 100%;
+        }
+
+  }
+
+
+  @media only screen and (max-width: 768px) {
+
+    .navbar-brand img
+    {
+        max-width: 120px;
+    }
+
+
+    .banner h1
+    {
+
+        font-size: 50px;
+
+    }
+
+    .banner .subtitle
+    {
+
+        font-size: 30px;
+
+
+    }
+
+    .banner .larger-txt
+    {
+        margin-top: 10px;
+    }
+
+    .banner .larger-txt::after
+    {
+
+        width: 80%;
+        margin: auto;
+
+    }
+
+
+    .counter
+    {
+        font-size: 26px;
+
+    }
+
+
+    .counter-wrapper
+    {
+        font-size: 16px;
+
+    }
+
+
+
+
+    .larger-txt
+    {
+        font-size: 17px !important;
+
+    }
+
+
+
+    .features-grid img
+    {
+        max-width: 75%;
+    }
+
+
+
+
+    #services p.larger-txt
+    {
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .service-title
+    {
+
+        font-size: 25px;
+        text-align: center;
+
+
+    }
+
+    .service-content p
+    {
+
+        font-size: 16px;
+
+        text-align: center;
+
+        margin: auto;
+    }
+
+    #services img
+    {
+        max-width: 85%;
+        display: block;
+        margin: auto;
+
+
+    }
+
+
+
+
+
+
+
+
+    .contact-info-block
+    {
+
+
+
+        margin: 0 20px 20px 20px;
+
+
+
+    }
+
+
+    .contact-bg img
+    {
+        display: none;
+    }
+
+
+    .contact-us .content .form-input
+    {
+
+        padding: 10px 50px;
+        color: #32325C;
+        font-size: 16px;
+    }
+
+    .input-icons .icon {
+        top: 5px;
+        font-size: 16px;
+    }
+
+    /* .contact-us-title
+    {
+        position: absolute;
+        top: 0;
+        z-index: 20;
+    } */
+    .contact-us-title h2
+    {
+        font-size: 38px;
+        font-weight: 700;
+
+
+    }
+
+
+
+
+    .contactBtn
+    {
+        padding: 6px 30px 6px 30px;
+
+        font-size: 16px;
+
+        width: 100%;
+
+    }
+
+    .contact-us .content
+    {
+
+        width: 100%;
+
+    }
+
+    .contact-us .row
+    {
+        width: 85%;
+    }
+
+
+
+  }
