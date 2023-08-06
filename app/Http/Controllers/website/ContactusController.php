@@ -48,7 +48,7 @@ class ContactusController extends Controller
 
    public function sendToMail($dataToSend){
 
-        Mail::to('mohamedragabelgwile010@gmail.com')->send(new ContactUsMail($dataToSend));
+        Mail::to('info@netexperts.com.sa')->send(new ContactUsMail($dataToSend));
 
 
 
