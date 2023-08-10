@@ -385,102 +385,69 @@
             <div class="slide">
 
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-1.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/cisco.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-2.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/amazon.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-3.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/aiuken.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-4.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/dell.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-5.png')}}" alt="product" class="img-fluid">
+                    <img style="max-width: 100px" src="{{asset('website/images/clients/f5.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-6.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/lenovo.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-7.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/microsoft.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-8.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/paloalto.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
             <div class="slide">
                 <a href="#">
-                    <img src="{{asset('website/images/clients/client-9.png')}}" alt="product" class="img-fluid">
+                    <img src="{{asset('website/images/clients/vmware.png')}}" alt="product" class="img-fluid">
 
                 </a>
 
             </div>
-            <div class="slide">
-                <a href="#">
-                    <img src="{{asset('website/images/clients/client-10.png')}}" alt="product" class="img-fluid">
 
-                </a>
 
-            </div>
-            <div class="slide">
-                <a href="#">
-                    <img src="{{asset('website/images/clients/client-11.png')}}" alt="product" class="img-fluid">
-
-                </a>
-
-            </div>
-            <div class="slide">
-                <a href="#">
-                    <img src="{{asset('website/images/clients/client-12.png')}}" alt="product" class="img-fluid">
-
-                </a>
-
-            </div>
-            <div class="slide">
-                <a href="#">
-                    <img src="{{asset('website/images/clients/client-14.png')}}" alt="product" class="img-fluid">
-
-                </a>
-
-            </div>
-            <div class="slide">
-                <a href="#">
-                    <img src="{{asset('website/images/clients/client-15.png')}}" alt="product" class="img-fluid">
-
-                </a>
-
-            </div>
 
 
 
@@ -526,15 +493,15 @@
                 <div class="row">
                     <div class="col-lg-12 left-animate">
                         <div class="nav nav-pills animate">
-                            <div class="row">
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                            <div class="tabs">
+                                <div class="tab tab-01">
                                     <a class="nav-link active" data-bs-toggle="pill" onclick="activateTab('process-tab-1')">
                                         <span>01</span>
                                         Software Development
-                                        <i class="fa fa-long-arrow-right"></i>
+{{--                                        <i class="fa fa-long-arrow-right"></i>--}}
                                     </a>
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                <div class="tab tab-02">
                                     <a class="nav-link " data-bs-toggle="pill" onclick="activateTab('process-tab-2')">
                                         <span>02</span>
                                         Data Center
@@ -542,7 +509,7 @@
                                     </a>
                                 </div>
 
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                <div class="tab tab-03">
                                     <a class="nav-link " data-bs-toggle="pill" onclick="activateTab('process-tab-3')">
                                         <span>03</span>
                                         Collaboration
@@ -550,18 +517,18 @@
                                     </a>
                                 </div>
 
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                <div class="tab tab-04">
                                     <a class="nav-link " data-bs-toggle="pill" onclick="activateTab('process-tab-4')">
                                         <span>04</span>
                                         Infrastructure Security
                                         <i class="fa fa-long-arrow-right"></i>
                                     </a>
                                 </div>
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                <div class="tab tab-05">
 
                                     <a class="nav-link " data-bs-toggle="pill" onclick="activateTab('process-tab-5')">
                                         <span>05</span>
-                                        Cloud
+                                        Cloud Infrastructure
                                         <i class="fa fa-long-arrow-right"></i>
                                     </a>
                                 </div>

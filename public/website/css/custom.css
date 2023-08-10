@@ -321,6 +321,8 @@ header .container
 
 
 
+
+
 /* end services */
 
 
@@ -393,7 +395,7 @@ header .container
 
 .slider-logos
 {
-    height: 100px;
+
     width: auto;
     margin:auto ;
     overflow: hidden;
@@ -403,13 +405,13 @@ header .container
 .slide-block
 {
     animation: logoscroll 20s linear infinite;
-    width: calc(250px *14);
+    width: calc(250px *10);
     display: flex;
 }
 
 .slide-block .slide
 {
-    height: 100px;
+
     width: 250px;
 
 }
