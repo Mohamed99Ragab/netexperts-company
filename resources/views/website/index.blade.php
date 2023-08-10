@@ -382,6 +382,73 @@
     <!-- our clients -->
     <section id="vendors"  class="slider-logos">
         <div class="slide-block d-flex justify-content-between">
+                <div class="slide">
+
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/cisco.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/amazon.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/aiuken.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/dell.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img style="max-width: 100px" src="{{asset('website/images/clients/f5.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/lenovo.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/microsoft.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/paloalto.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+                <div class="slide">
+                    <a href="#">
+                        <img src="{{asset('website/images/clients/vmware.png')}}" alt="product" class="img-fluid">
+
+                    </a>
+
+                </div>
+
+        </div>
+        <div class="slide-block d-flex justify-content-between">
             <div class="slide">
 
                 <a href="#">
@@ -447,11 +514,8 @@
 
             </div>
 
-
-
-
-
         </div>
+
     </section>
 
 

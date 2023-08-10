@@ -12,7 +12,7 @@
 <!-- Loader -->
 <div class="loader-container">
     <div>
-        <img style="max-width: 450px" src="{{asset('website/images/reloder-animation-bg.gif')}}" alt="" srcset="">
+        <img style="max-width: 250px" src="{{asset('website/images/reloder.gif')}}" alt="" srcset="">
     </div>
 {{--    <div class="spinner">--}}
 

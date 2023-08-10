@@ -400,6 +400,7 @@ header .container
     margin:auto ;
     overflow: hidden;
     position: relative;
+    display: flex;
 
 }
 .slide-block
@@ -407,6 +408,7 @@ header .container
     animation: logoscroll 20s linear infinite;
     width: calc(250px *10);
     display: flex;
+    align-items: center;
 }
 
 .slide-block .slide
@@ -422,17 +424,29 @@ header .container
 
 }
 
-.slide-block:hover{
 
-    -webkit-animation-play-state:paused;
-    -moz-animation-play-state:paused;
-    -o-animation-play-state:paused;
-    animation-play-state:paused;
- }
 
 .slide img
 {
     cursor: pointer;
+}
+
+.slider-logos::before, .slider-logos::after {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, white 0%, rgba(255,255,255,0) 100%);
+    z-index: 2;
+}
+.slider-logos::before {
+    left: 0;
+    top: 0;
+}
+.slider-logos::after {
+    right:0;
+    top:0;
+    transform: rotateZ(180deg);
 }
 
 
@@ -894,6 +908,14 @@ footer
     {
         max-width: 75%;
     }
+
+
+      .slide-block
+      {
+
+          width: calc(250px * 7);
+
+      }
 
 
 
