@@ -5,6 +5,7 @@ namespace App\Http\Controllers\website;
 use App\Http\Controllers\Controller;
 use App\Mail\ContactUsMail;
 use App\Models\Contact;
+use Flasher\Prime\FlasherInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
@@ -13,6 +14,9 @@ class ContactusController extends Controller
 {
 
     public function saveData(Request $request){
+
+
+
 
 
         $validator = Validator::make($request->all(), [
@@ -49,6 +53,7 @@ class ContactusController extends Controller
    public function sendToMail($dataToSend){
 
         Mail::to('info@netexperts.com.sa')->send(new ContactUsMail($dataToSend));
+
 
 
 

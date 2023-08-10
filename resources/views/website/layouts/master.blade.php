@@ -11,10 +11,14 @@
 
 <!-- Loader -->
 <div class="loader-container">
-    <div class="spinner">
-        <div class="dot1"></div>
-        <div class="dot2"></div>
+    <div>
+        <img style="max-width: 450px" src="{{asset('website/images/reloder-animation-bg.gif')}}" alt="" srcset="">
     </div>
+{{--    <div class="spinner">--}}
+
+{{--        <div class="dot1"></div>--}}
+{{--        <div class="dot2"></div>--}}
+{{--    </div>--}}
 </div>
 <!-- Header starts
 ======================================== -->
@@ -140,79 +144,7 @@
 </div>
 <!-- End of .terms-modal -->
 
-<!-- Quote modal starts
-================================= -->
-<div class="modal fade full-width-modal quote-modal" id="quote-modal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content theme-bg-d">
-            <div class="modal-header">
-                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                    <i class="fas fa-times"></i>
-                </button>
-                <!-- End of .close -->
-            </div>
-            <!-- End of .modal-header -->
 
-            <div class="modal-body d-flex align-items-center justify-content-center text-center">
-                <div class="quote-form-wrapper text-center">
-                    <h3>Get a Free Quote</h3>
-                    <form action="mailto:salzahrani@netexperts.com.sa" method="post" enctype="text/plain" class="quote-form text-center row">
-                        <div class="col-lg-6">
-                            <input type="text" name="fname" placeholder="Name">
-                        </div>
-                        <div class="col-lg-6">
-                            <input type="text" name="email" placeholder="Email">
-                        </div>
-
-                        <div class="col-lg-6">
-                            <input type="text" name="phone" placeholder="Phone">
-                        </div>
-                        <div class="col-lg-6">
-                            <input type="text" name="website" placeholder="Website">
-                        </div>
-                        <div class="col-lg-12">
-                            <textarea placeholder="Message" name="message"></textarea>
-                            <button type="submit" class="custom-btn secondary-btn w-100">GET A QUOTE</button>
-                            <div class="social-icons-wrapper d-flex justify-content-center">
-                                <p>Follow us:</p>
-                                <ul class="social-icons">
-                                    <li>
-                                        <a href="http://www.facebook.com/" target="_blank" rel="noopener">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://twitter.com/" target="_blank" rel="noopener">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://youtube.com/" target="_blank" rel="noopener">
-                                            <i class="fab fa-youtube"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://plus.google.com/discover" target="_blank" rel="noopener">
-                                            <i class="fab fa-google-plus-g"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <!-- End of .social-icons -->
-                            </div>
-                            <!-- End of .social-icons-wrapper -->
-                        </div>
-                    </form>
-                    <!-- End of .quote-form -->
-                </div>
-                <!-- End of .quote-form-wrapper -->
-            </div>
-            <!-- End of .modal-body -->
-        </div>
-        <!-- End of .modal-content -->
-    </div>
-    <!-- End of .modal-dialog -->
-</div>
-<!-- End of .quote-modal -->
 
 <!-- Javascripts
 ======================================= -->

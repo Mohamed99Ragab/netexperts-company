@@ -6,6 +6,11 @@
 
 @section('css')
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
 @endsection
 
@@ -21,7 +26,6 @@
                     <h1 class="animate"> NetExperts <span class="showRight-animate" style="--i:1"></span></h1>
                     <!-- <p class="subtitle animate">Unlocking Your IT Potential  <span class="showRight-animate" style="--i:2"></span></p> -->
                     <p class="larger-txt animate">one stop destination for all your IT solutions  <span class="showRight-animate" style="--i:3"></span></p>
-                    <a onclick="scrollToTopOfSection('our-services')" class="animate custom-btn secondary-btn page-scroll">Check our Services  <span class="showRight-animate" style="--i:4"></span></a>
                 </div>
                 <!-- End of .col-lg-5 -->
 
@@ -192,7 +196,7 @@
 
                     <div class="col-lg-6 text-center right-animate">
                         <div class="img-container animate">
-                            <img src="{{asset('website/images/core-value.png')}}" alt="core values" class="img-fluid">
+                            <img src="{{asset('website/images/core-value.jpg')}}" alt="core values" class="img-fluid">
                         </div>
                         <!-- End of .img-container -->
                     </div>
@@ -376,131 +380,114 @@
 
 
     <!-- our clients -->
+    <section id="vendors"  class="slider-logos">
+        <div class="slide-block d-flex justify-content-between">
+            <div class="slide">
 
-    <section id="vendors" class="clients">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-1.png')}}" alt="product" class="img-fluid">
 
-
-        <div class="project-showcase">
-
-            <div class="owl-carousel clients-carousel-wrapper grid-wrapper">
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-1.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-2.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-3.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-4.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-5.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-
-                </div>
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-6.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-7.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-8.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-9.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-10.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-11.png')}}" alt="product" class="img-fluid">
-                    </a>
-                </div>
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-12.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-14.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-
-
-                <div class="item">
-                    <a href="#" class="text-center">
-                        <img src="{{asset('website/images/clients/client-15.png')}}" alt="product" class="img-fluid">
-
-                    </a>
-                </div>
-                <!-- End of .item -->
-
-
+                </a>
 
             </div>
-            <!-- End of .owl-carousel -->
-        </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-2.png')}}" alt="product" class="img-fluid">
 
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-3.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-4.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-5.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-6.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-7.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-8.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-9.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-10.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-11.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-12.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-14.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+            <div class="slide">
+                <a href="#">
+                    <img src="{{asset('website/images/clients/client-15.png')}}" alt="product" class="img-fluid">
+
+                </a>
+
+            </div>
+
+
+
+        </div>
     </section>
+
+
 
     <!-- End of .clients -->
 
@@ -543,14 +530,14 @@
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                                     <a class="nav-link active" data-bs-toggle="pill" onclick="activateTab('process-tab-1')">
                                         <span>01</span>
-                                        Applications/Software Development
+                                        Software Development
                                         <i class="fa fa-long-arrow-right"></i>
                                     </a>
                                 </div>
                                 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                                     <a class="nav-link " data-bs-toggle="pill" onclick="activateTab('process-tab-2')">
                                         <span>02</span>
-                                        Data Center infrastructure
+                                        Data Center
                                         <i class="fa fa-long-arrow-right"></i>
                                     </a>
                                 </div>
@@ -766,17 +753,7 @@
 
             <div class="col-md-7 contact-us-content animate">
 
-                    @if(session()->has('error'))
-                        <div class="alert alert-danger" role="alert">
-                            {{session()->get('error')}}
-                        </div>
-                    @endif
 
-                    @if(session()->has('success'))
-                        <div class="alert alert-success" role="alert">
-                            {{session()->get('success')}}
-                        </div>
-                    @endif
 
                 <div class="content">
 
@@ -822,5 +799,19 @@
 
 
 @section('js')
+    <script>
+        @if(session()->has('success'))
 
+            toastr.options =
+                {
+                    "closeButton" : true,
+                    "progressBar" : true,
+                    'duration':'5s'
+                }
+            toastr.success("{{ session('success') }}");
+
+        @endif
+
+
+    </script>
 @endsection

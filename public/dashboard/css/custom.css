@@ -1,0 +1,210 @@
+
+/*custom style of dashboard*/
+
+/*
+0-general
+1- navbar
+2-dashboard(home page)
+
+*/
+
+
+
+/*start general*/
+
+
+/*end general style*/
+
+
+
+/*start navbar*/
+.navbar
+{
+    box-shadow: none;
+}
+
+
+.navbar .navbar-brand-wrapper .navbar-brand img
+{
+    width: 130px;
+    height: auto;
+}
+
+
+
+
+
+/*end navbar*/
+
+
+
+/* satrt home page */
+
+.breadcrumb
+{
+    background-color: #fff;
+    width: 75%;
+    border: none;
+    margin-left: 20px;
+
+}
+
+.breadcrumb-item i
+{
+    color: #32325C;
+}
+
+
+
+
+.welcome-block
+{
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+.welcome-block h4
+{
+    font-weight: 700;
+    color: #32325C;
+
+}
+
+
+.analytics-section
+{
+    background-color: #fff;
+    margin:20px 0 ;
+    padding:10px ;
+    border-radius: 10px;
+}
+
+.anlytics-block-item
+{
+    padding:20px ;
+    border-right: solid #E0E0E0 1px;
+}
+.latest
+{
+    border-right:none;
+}
+
+.anlytics-block-item h4
+{
+    color: #53545C;
+    line-height: 24px;
+}
+.anlytics-block-item p
+{
+    color: #3A53A5;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 5px 0;
+}
+
+
+
+.anlytics-block-item .paid , .anlytics-block-item .unpaid
+{
+    color: #9E9E9E;
+}
+
+.anlytics-block-item .paid span
+{
+    color: #3A53A5;
+}
+
+.anlytics-block-item .unpaid span
+{
+    color: #B757A1;
+}
+
+
+.time-log
+{
+    background-color: #fff;
+    margin:40px 0 ;
+    padding:20px ;
+    border-radius: 10px;
+}
+
+.time-block-item
+{
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    padding: 20px;
+    width: 20%;
+
+
+}
+
+.time-log .today
+{
+    border-right: 1px solid #E0E0E0;
+}
+
+.progress-bar
+{
+    background-color: #32325C;
+}
+
+
+.expandable-table thead tr th
+{
+    background-color: #F5F5F5 ;
+    color: #32325C;
+    border-radius: 0 !important;
+    border-right: 1px solid #E0E0E0;
+
+}
+
+.expandable-table thead tr th:last-child {
+    border-right: none;
+}
+
+
+
+/* end home page */
+
+
+
+
+@media screen and (max-width: 795px) {
+    .anlytics-block-item
+    {
+        border-right: none;
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .latest
+    {
+
+        border-bottom: none;
+    }
+
+    .time-block-item
+    {
+        width: 25%;
+    }
+
+    .progress-item
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 796px) and (max-width: 1150px){
+
+    .time-block-item
+    {
+        width: 30%;
+    }
+
+
+}

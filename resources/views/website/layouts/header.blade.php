@@ -56,9 +56,7 @@
                         <a onclick="scrollToTopOfSection('contact-us')" class="nav-link page-scroll">Contact Us</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="custom-btn btn-small" data-bs-toggle="modal" data-bs-target="#quote-modal">Free Quote</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- End of .navbar-nav -->

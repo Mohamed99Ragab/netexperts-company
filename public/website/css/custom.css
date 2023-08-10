@@ -9,7 +9,7 @@
  3-counter
  4-services
 
-
+5-vendors
 
 
  */
@@ -33,7 +33,12 @@ textarea
 
 div.toast-message
 {
-    font-size: 20px;
+    font-size: 16px;
+}
+
+div.toast-title
+{
+    font-size: 18px;
 }
 
 
@@ -356,9 +361,9 @@ header .container
 
 /* our clients */
 
-.clients
+#vendors
 {
-    padding: 5.5rem 0;
+    margin: 90px 0;
 }
 
 
@@ -371,7 +376,70 @@ header .container
 
 
 
+
+
+
+@keyframes logoscroll {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+
+
+.slider-logos
+{
+    height: 100px;
+    width: auto;
+    margin:auto ;
+    overflow: hidden;
+    position: relative;
+
+}
+.slide-block
+{
+    animation: logoscroll 20s linear infinite;
+    width: calc(250px *14);
+    display: flex;
+}
+
+.slide-block .slide
+{
+    height: 100px;
+    width: 250px;
+
+}
+
+.slide-block .slide a img
+{
+    max-width: 75%;
+
+}
+
+.slide-block:hover{
+
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+ }
+
+.slide img
+{
+    cursor: pointer;
+}
+
+
+
+
+
+
 /* end clients */
+
 
 
 
@@ -392,6 +460,16 @@ header .container
 
 
 /* end our products section */
+
+
+
+/* services */
+
+
+
+
+/*end services*/
+
 
 
 
